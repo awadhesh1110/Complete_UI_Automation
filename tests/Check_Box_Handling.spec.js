@@ -10,6 +10,8 @@ test('CheckBox Handing', async ({ page }) => {
     await page.locator("//h5[normalize-space()='Elements']").click();
     await page.locator("//span[normalize-space()='Check Box']").click();
 
+    // comented
+
     while (true) {
 
         const Close_Switchers = page.locator(".rc-tree-switcher.rc-tree-switcher_close");
