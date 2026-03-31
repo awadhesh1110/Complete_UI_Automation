@@ -10,7 +10,7 @@ export default defineConfig({
   },
   reporter: [['allure-playwright'], ['html'], ['list']],
 
-  retries: 1,         // Retry the test 1 time if it fails.
+//retries: 1,         // Retry the test 1 time if it fails.
 
   projects: [
     {
