@@ -1,0 +1,230 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link [ref=e4] [cursor=pointer]:
+      - /url: https://demoqa.com
+      - img [ref=e5]
+  - generic [ref=e8]:
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - generic [ref=e14] [cursor=pointer]:
+          - generic [ref=e15]:
+            - img [ref=e17]
+            - text: Elements
+          - img [ref=e22]
+        - list [ref=e25]:
+          - listitem [ref=e26] [cursor=pointer]:
+            - link "Text Box" [ref=e27]:
+              - /url: /text-box
+              - img [ref=e28]
+              - text: Text Box
+          - listitem [ref=e30] [cursor=pointer]:
+            - link "Check Box" [ref=e31]:
+              - /url: /checkbox
+              - img [ref=e32]
+              - text: Check Box
+          - listitem [ref=e34] [cursor=pointer]:
+            - link "Radio Button" [ref=e35]:
+              - /url: /radio-button
+              - img [ref=e36]
+              - text: Radio Button
+          - listitem [ref=e38] [cursor=pointer]:
+            - link "Web Tables" [ref=e39]:
+              - /url: /webtables
+              - img [ref=e40]
+              - text: Web Tables
+          - listitem [ref=e42] [cursor=pointer]:
+            - link "Buttons" [ref=e43]:
+              - /url: /buttons
+              - img [ref=e44]
+              - text: Buttons
+          - listitem [ref=e46] [cursor=pointer]:
+            - link "Links" [ref=e47]:
+              - /url: /links
+              - img [ref=e48]
+              - text: Links
+          - listitem [ref=e50] [cursor=pointer]:
+            - link "Broken Links - Images" [ref=e51]:
+              - /url: /broken
+              - img [ref=e52]
+              - text: Broken Links - Images
+          - listitem [ref=e54] [cursor=pointer]:
+            - link "Upload and Download" [ref=e55]:
+              - /url: /upload-download
+              - img [ref=e56]
+              - text: Upload and Download
+          - listitem [ref=e58] [cursor=pointer]:
+            - link "Dynamic Properties" [ref=e59]:
+              - /url: /dynamic-properties
+              - img [ref=e60]
+              - text: Dynamic Properties
+      - generic [ref=e64] [cursor=pointer]:
+        - generic [ref=e65]:
+          - img [ref=e67]
+          - text: Forms
+        - img [ref=e73]
+      - generic [ref=e77] [cursor=pointer]:
+        - generic [ref=e78]:
+          - img [ref=e80]
+          - text: Alerts, Frame & Windows
+        - img [ref=e85]
+      - generic [ref=e89] [cursor=pointer]:
+        - generic [ref=e90]:
+          - img [ref=e92]
+          - text: Widgets
+        - img [ref=e98]
+      - generic [ref=e102] [cursor=pointer]:
+        - generic [ref=e103]:
+          - img [ref=e105]
+          - text: Interactions
+        - img [ref=e110]
+      - generic [ref=e114] [cursor=pointer]:
+        - generic [ref=e115]:
+          - img [ref=e117]
+          - text: Book Store Application
+        - img [ref=e122]
+    - generic [ref=e124]:
+      - heading "Check Box" [level=1] [ref=e125]
+      - generic [ref=e127]:
+        - generic:
+          - textbox "for screen reader"
+        - tree [ref=e128]:
+          - generic [ref=e131]:
+            - treeitem "Select Home Home" [expanded] [ref=e132]:
+              - checkbox "Select Home" [ref=e134] [cursor=pointer]
+              - generic "Home" [ref=e135] [cursor=pointer]:
+                - generic [ref=e137]: Home
+            - treeitem "Select Desktop Desktop" [expanded] [ref=e138]:
+              - checkbox "Select Desktop" [ref=e140] [cursor=pointer]
+              - generic "Desktop" [ref=e141] [cursor=pointer]:
+                - generic [ref=e143]: Desktop
+            - treeitem "Select Notes Notes" [ref=e144]:
+              - checkbox "Select Notes" [ref=e146] [cursor=pointer]
+              - generic "Notes" [ref=e147] [cursor=pointer]:
+                - generic [ref=e149]: Notes
+            - treeitem "Select Commands Commands" [ref=e150]:
+              - checkbox "Select Commands" [ref=e152] [cursor=pointer]
+              - generic "Commands" [ref=e153] [cursor=pointer]:
+                - generic [ref=e155]: Commands
+            - treeitem "Select Documents Documents" [expanded] [ref=e156]:
+              - checkbox "Select Documents" [ref=e158] [cursor=pointer]
+              - generic "Documents" [ref=e159] [cursor=pointer]:
+                - generic [ref=e161]: Documents
+            - treeitem "Select WorkSpace WorkSpace" [expanded] [ref=e162]:
+              - checkbox "Select WorkSpace" [ref=e164] [cursor=pointer]
+              - generic "WorkSpace" [ref=e165] [cursor=pointer]:
+                - generic [ref=e167]: WorkSpace
+            - treeitem "Select React React" [ref=e168]:
+              - checkbox "Select React" [ref=e170] [cursor=pointer]
+              - generic "React" [ref=e171] [cursor=pointer]:
+                - generic [ref=e173]: React
+            - treeitem "Select Angular Angular" [ref=e174]:
+              - checkbox "Select Angular" [ref=e176] [cursor=pointer]
+              - generic "Angular" [ref=e177] [cursor=pointer]:
+                - generic [ref=e179]: Angular
+            - treeitem "Select Veu Veu" [ref=e180]:
+              - checkbox "Select Veu" [ref=e182] [cursor=pointer]
+              - generic "Veu" [ref=e183] [cursor=pointer]:
+                - generic [ref=e185]: Veu
+            - treeitem "Select Office Office" [expanded] [ref=e186]:
+              - checkbox "Select Office" [ref=e188] [cursor=pointer]
+              - generic "Office" [ref=e189] [cursor=pointer]:
+                - generic [ref=e191]: Office
+            - treeitem "Select Public Public" [ref=e192]:
+              - checkbox "Select Public" [ref=e194] [cursor=pointer]
+              - generic "Public" [ref=e195] [cursor=pointer]:
+                - generic [ref=e197]: Public
+            - treeitem "Select Private Private" [ref=e198]:
+              - checkbox "Select Private" [ref=e200] [cursor=pointer]
+              - generic "Private" [ref=e201] [cursor=pointer]:
+                - generic [ref=e203]: Private
+            - treeitem "Select Classified Classified" [ref=e204]:
+              - checkbox "Select Classified" [ref=e206] [cursor=pointer]
+              - generic "Classified" [ref=e207] [cursor=pointer]:
+                - generic [ref=e209]: Classified
+            - treeitem "Select General General" [ref=e210]:
+              - checkbox "Select General" [ref=e212] [cursor=pointer]
+              - generic "General" [ref=e213] [cursor=pointer]:
+                - generic [ref=e215]: General
+            - treeitem "Select Downloads Downloads" [expanded] [ref=e216]:
+              - checkbox "Select Downloads" [ref=e218] [cursor=pointer]
+              - generic "Downloads" [ref=e219] [cursor=pointer]:
+                - generic [ref=e221]: Downloads
+            - treeitem "Select Word File.doc Word File.doc" [ref=e222]:
+              - checkbox "Select Word File.doc" [ref=e224] [cursor=pointer]
+              - generic "Word File.doc" [ref=e225] [cursor=pointer]:
+                - generic [ref=e227]: Word File.doc
+            - treeitem "Select Excel File.doc Excel File.doc" [ref=e228]:
+              - checkbox "Select Excel File.doc" [ref=e230] [cursor=pointer]
+              - generic "Excel File.doc" [ref=e231] [cursor=pointer]:
+                - generic [ref=e233]: Excel File.doc
+      - iframe [ref=e237]:
+        - generic [active]:
+          - generic [ref=f8e2]:
+            - link "Advertisement" [ref=f8e4] [cursor=pointer]:
+              - /url: https://ad.doubleclick.net/pcs/click?xai=AKAOjstdW6xIwJPCnnDg2GRrrL4DLSF9M2r-qMYAqjUT3jbFLaPLUAUK_pm_J4Em_Lo1r8_wFqAMHGjh3OxOa1I45sKATs0OqWKk9N-kscVpcwnIxd8esdEJcarhJpbIpfEsjUXlZrJsCKci4i9_GYob3NWEwh825MoXQVHJOpG6mFyivLKOUlImHxlvjQdsaAaRWo1-HlOkKqnW_sOQQCYl7xoL6Omi8NmAp1ltljpo_Q8v64hMulRynHoRjcq7oxLN4_zAuoSQijgxB3sa45Xjq7uYLWt693pQBOYomAaMBVqA9aC_oBC4DDioHmVE3ETs6Bu_1ACc0V2EwkvQsOE3BtMegx6ejVmRskHgAYnhxxuiAqzzlHjeIR6l5dPp1busKImriHsjZD5Nw7RzNyIVw3vbpCSSEBpa5XIXwmMnqkIqcPzpU3ZF5SFuRRZQOU4DXAv59SZpUo3GqKMiFCRYPg_yEhjlx3B32bcxupV4ojDxKqz84vNYKozzA-DmZGYkcGk5194besXWp2wX8aOyjwBnQIW7XyZjIs3bVet2ZZvI-7ZZFgksivww9oWWOMQsHYc6Z5Ke8E4LABZPcaQ4hjwdFjneH2xjx_z3u2tgNstS8YMAZN1ZnbdW-n3Q0NzCHTSidM_fYlJrJSNmvpZKwOwYa0-8U5Z1q_3EWAXK5JJ5TG3lpDz0MZOU3GRr4EkZQ53_dEJv-hk1WT5qrjXbGKYhO0Du6Drqp0KVFS7xQl3z-6GAJGdix_sovWGM2RpmZna7NaL3uGDqi6Kha_hbmEzbOaqeELSUNc3bc1Yd4GqzLh7xzonyhvooyt_-JF3REvDPwaIc-hGuJ17MmfWtRPv-3PWjUByCcF4cKiEWcrgCZPEwehtj2UCz1PFwBZoBChF6pAeGS5XE5L2j-1zSiS4yMjbgRVhGw8nJnauVAd058N5QNur3Bz69oTEln2PkiSxa245g0EbI5oB3himCNjJeKbjF08NkUcu_pAYA9KEx56cuO0VIn5Ft2ylqEfwQ3HZmKK4E4nqfOPIw9T8iKsAv5vlQ6kJZBxMe3I_aQ2Hec1i9g2A9VwTtnpEa2YhFVj9vvDjTkp3SfQDLcpm1KYy9oZg1VVvKfF5IeTUVfh1ZhypzS6SLcDO5jPLJwZZ3By_06OdikuMmWt3jmrUJbKAHQqqG_1P4WfYp46n69kM8ux9KLLW2F6JkZv_9e6IE5QCFqcGNZk5pNd0z5d834N5N_Yqxin07irj6Mz-spuGC9GHyIi5IeUYqBguunuPjbWNzzicOr1XK6TYeSDmtKOOzNJ-_AKc94I_N4vLGfaaUmElEC5TGAU0yyvt8WHzVK_v4WFQ6oYgiyD8Z6NxXcfdZp5hCilDUdxGKi9jSgwDdWVDdxWaHBnHPrQsW8L10fbjn-85tHVM0Q02qQEfRPkfgd6ZxBN9zz7iMwFt4CZrbUTPBfoHmMEbg7Yg6W4kE79LZRlElwzFfMhzDjkXzovhicUo-qa9_DIOyI5kY3Jz4oULbIdHD3hRu9rXp2fA-zZzhfDYL6ME5thS2b3R1jdmDcwCMRK58wOm-m9maDQPR612aFkneUaRmJLhZYBS8br1ubkDXIZYG2HTBM5m1HtmJkf4NJ0hErh86MefRDnOH0RY00WIoksXGm7m6jD83SvYABNmCp1rzqwM47vHkiYSyywUhT6ZNKHugpH7r7cWtLaBhXqp9cNhj02c7khHC2K2t98iw13RDVQ17hp9kKbaGeOyeJyv0snbBn5YVOm-lY6ZWEBW6s8xCCpQ9XYqXz8_0HPdwR1xQ7AdaYy9Saq8c-sdnh93-sN4q8O0M-9O4RYo8ZmCGvevV5GcjxPrQKcFlc3T-zNefVuXlhfmJ44mNK9jsvl9BChrqKCGQueCD1xE7q12SO2H6zMIZ9DEZTT8We7MVSD5DGMUVbxLwVA&sai=AMfl-YTu0JVVsYBlt053KqBSw8OoAs1DN4KqN9yiAkbk8LipnTH693XHTMaAspol4kSHCpWwQPVblxOX7i1NN1ApjYZQuRsjAZeHpe6mu3fG_XH0g1VNdCGIH5HsosHW8w7JJVxN59L5uW3gVyADwdddH4xh6T30VYjVL_pWJ1RqBCGcGp4lJ0TEd1qubXZvALYGRN6rS8k_EaA6oQw0cyv2bDdR4QiIc75qBFs673C5RW_fH1MU-e9XGQwUk-aKYQNtJeeMwB2VhkgytCmGvfRshtrzns2k63shHkTQ2gJqf25qy8cEo6RrEDs9l5F8pIOieTel90pk8U99t_z4E57IBzG6JTHWr4mRPlV4rJxZLlAntkO4v34l4XgFcPacOmUW--OvhCGXH7QoS_rksKgIo4kvG3IloNjgmZv5TZ7BPnrO-AR2ihJUJbRRu5GrxdSqzZjGpNthhIn9NTFvupiuhDAbIA17UOnEC2mVN2soeWeUEmw58qtM5bNNpnUc8qUPAfjUU7cAvws66PvBFcIuScjgnZ8NBxL3sT7V0_9f79DeouxHHfyR4v148SyhqHYx5KNVAC_YFedX4Wgm8j5EGvVf3cwaBSwNwF6mC_EafxlJhBdIZWWrWTm_Mu_kdxvzBwQhUMX9_SDZoYR51Ih4qf6Y4woaNwXu10c8xjrmsWYK-GIoGlXu3buET3zU8ELxOtbNiCTiCphqUpYyH89uQZSBo93I92BCZTq95JrRUiiig6ii_6rasCbjhIflKvM01Yk5HZ3AjFPNEcCh2WTjnKh3Khg9r_TlsZ27bwiOd_mUskgDZ7ds8mx9Kg&sig=Cg0ArKJSzN0cUJJTF0K3&fbs_aeid=%5Bgw_fbsaeid%5D&crd=aHR0cHM6Ly9saW5rZWRpbi5jb20&urlfix=1&adurl=https://business.linkedin.com/talent-solutions/post-jobs/ai-assistant%3Fsrc%3Dgo-dp%26trk%3Ddvp-gcm_campid.%3D34858199_sid.%3D6839522_plid.%3D436856947_crid.%3D247923000%26mcid%3D7406692379040100356%26dclid%3D%25edclid!%26gad_source%3D7%26gad_campaignid%3D23399649085
+              - img "Advertisement" [ref=f8e5]
+            - generic [ref=f8e6]:
+              - generic:
+                - img [ref=f8e10] [cursor=pointer]
+                - button [ref=f8e12] [cursor=pointer]:
+                  - img [ref=f8e13]
+          - iframe
+    - generic [ref=e242]:
+      - iframe [ref=e245]:
+        - generic [ref=f15e2]:
+          - iframe [ref=f15e5]:
+            - img [ref=f19e14]
+          - generic [ref=f15e6]:
+            - generic:
+              - img [ref=f15e10] [cursor=pointer]
+              - button [ref=f15e12] [cursor=pointer]:
+                - img [ref=f15e13]
+      - iframe [ref=e248]:
+        - generic [ref=f13e3]:
+          - link [ref=f13e4] [cursor=pointer]:
+            - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=Cuj9cE2HLaf3DBJGN9fwP09nm0Af5n4CchgGZwpnP2xWsipKxlg4QASDG-9Z5YOWCgIC8DqABnbKwhynIAQKpAtYN44FspkY-4AIAqAMByAMIqgSPAk_QkbpLSmTnCDCTpK4tfhlHkIGG5l3_S-YHvBceqzrrsFFbtaq8ANMgjX0CDy8nTxJz3BVwyaRogKZnqiewVmNrVYAFhIalVUvScfN8sJIl0r9H0tdOIFXDLai2c4dwQ2N0frlgfDd1ZHuRhdD_9yPLOZrZrUbZ1iNL_f0nOtZJGr6ZuAf317rV0IKEqj7rxJ12-NGzEuGvZBMFttKM_DkHTE8t4h8pQGby9w3h8W9ktxWWDhJOTD5HSnEMgQ9qg6SKqebIW-DVceY6Vfa3oozuMLfVGwEcVsckbnls7CJ-2oXpwq0F4wrD42-OhOrEwdnBFm-D2p3AQreRZh6UiRn5buqeqCKxS7SrM50-ShPABN6KgM_LBeAEAYgF4PLwo1igBgKAB53qgOcDqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcB0ggvCIBhEAEYnQEyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpYsb7Sj7nJkwPyCBthZHgtc3Vic3luLTM1MjA2MTczNDE2NjU1OTKxCV7r2RhFqHHegAoDmAsByAsBogwLKgYKBJbisQKQAQGqDQJJTsgNAeINEwj2_tKPucmTAxWRRp0JHdOsGXrqDRMImOfTj7nJkwMVkUadCR3TrBl68A0CiA7___________8B2BMD0BUBmBYByhYCCgD4FgGAFwGyFxAYASoKNjE2ODU3NjUwNVAGuhcCOAGqGBcJAAAAAMjtAEESCjYxNjg1NzY1MDUYAbIYCRIC-lMYAiIBANAYAcIZAggB&ae=1&gclid=EAIaIQobChMIvZn1j7nJkwMVkUadCR3TrBl6EAEYASAAEgL-0_D_BwE&num=1&cid=CAQS5AEABaugfW9m2l7ldL1whdU10YRAdSwswTGtEB2j44aoo_OFx9fXwDc9Iohr_7uhFC_WVTPLV9flGDOW9gBwkYg6xYmu-iZ3H3rhwHJSC6oZI0-8E4aYyGYTxauP_SVpIPJWNkSchbpAiMd0izPKD3-yVBVrrglQ9Pr-PyCPdaVl6_HFKkVH83BxN_PfLURQ-MJRIIVgElALwQ-CFFh09B7Z2-p5wFuBJ3gAJBHzqFgaQpi0yuWCFDbBx8DLdh6l9HacDODCzAdmCGaqHZJ9-fGvK41Rpgac6FTRz41cEpe1wqRpLh0YAQ&sig=AOD64_3sXzP1idZBQxTBOrkt5bJ0O4Yy9Q&client=ca-pub-4573231550355221&rf=5&nx=CLICK_X&ny=CLICK_Y&uap=UACH(platform)&uapv=UACH(platformVersion)&uaa=UACH(architecture)&uam=UACH(model)&uafv=UACH(uaFullVersion)&uab=UACH(bitness)&uaw=UACH(wow64)&uafvl=UACH(fullVersionList)&nb=2&adurl=https://sjsa.maharashtra.gov.in/en/%3Fgad_source%3D5%26gad_campaignid%3D23697570144%26gclid%3DEAIaIQobChMIvZn1j7nJkwMVkUadCR3TrBl6EAEYASAAEgL-0_D_BwE
+          - generic [ref=f13e6]:
+            - link [ref=f13e8] [cursor=pointer]:
+              - /url: https://adssettings.google.com/whythisad?source=display&reasons=AcrBLeUfPS88x8TjLDleyAzurnP_mkY4WwM4650Wj3IN0Gn6x12x0Bskx1S8ofdeTAJq6pbWKQFlAFj1z-gHWWC3pdZhZ_3ArH_1sJxYtVUr7FUWD_t0w8v5A_TqbW8teb7B6JgRbu9T8igeG6j9KcsEdsXuGxrK6qWkas7EDLMT8HVJQwkNd9zqH81OqH7IfpLie9OkNJU0sNIdP1LhWZh374OuZLDEjQIexWU5_xmD-QBdNjIQZCLOszAgGVDZBXhgvusCmo819igHHjbaEDGQoBi5CSQ0USU7njQjONlMSoivUbzFoiLdIRg4L8CG0DxOi4ttC93Bk5FMYZW15BizTKUwLX7rUTqqQQtIv1YfEY6tZGKIPBuibTjCF8gC3QFJPrADez_5dtpJAvRClH8EsymWw8nbmKhK01at-3U_m4zA89euKDtyMCBkP6o6KuNGW3vPvy76FblXPAOmn0URckhlY_3Wk8JPNbO5bBTf9USDAswRYkB3nxgcecGlt3SDJh9I6dvSxP2BICcIySeyJ5oPLw0V6uJCcgvnBPALRYOaEFQcoAKrPFuVbTZKefybLakZQIx6eljq8ZthQni0wwKUGk4GfVSFem4T6arVaPmFt0k9J6T029E2mNOBbDjO5CHCnm0uSJDk4QS5kHAqownuv1GLbgdnGo2tGmMIDt5ZDljTx7fEKpVUX0rOrc36iRnoeupRkv56Xy62fikMnnnUIt9QFu-UOBug7iPDficI9_oNUaPaSE2ZDXDpOBZK94iBMQfftM--YIgxydfzfFHtK3PtaRS8Ew-pEqrflGQLUUAHjDU692-K2ehQy8nIFhYCCMCG15Zcq2MiJX1_DuvUaPEacX_bUoUsJc63es9tkowKWJtdOmc0e-uu8J1U9yQ6Q5Ttq-kfrKgSnLITxXsRirqmy2dEgYRIpd4SJV9WZogCmIJTKyqLcL9pTvroKW7nbnGKDwpy-9_c8d1mQTwvHm8W-OL2pLGj-Eidc7RO_T2h4ZpqHwLS_FmDhVuA1_CVbLDaxYzdTIa1dzbq8zOdfJbgL4ofP5fE5IEdM8lazV-SK4RSuuIl_gCeLT0lEhPXVHzkC0YQhnVY97-lsJh9ZVR6SVXB0VwxfW0sq5zVp7McsIwjO2VwuLu46XGQYQ1jxavrksjBksYzc2EO36HD3lxX-j_OL-XzmkSjl8tLmbR-YWC9iNhOj-fPRpftBV4Kb1_13ERpKeNtoTl7DxllTKGxEbnHSqsuJLbCPpbksqlB1BrsB8SkX_lQ7dBLYD_qgExhIKkxjnZKElq8omdYYJLvetsg3LN5jKuWH8CKSuTmbUH10FXpBrUFcFBGImv5CVMw6zC3MWO6yFpjyQmYq1WjB-V0aiUhlcaUB4RmcGuPMfQd1iEmxzMNCDtCSZckjVl3Dsm22R47ELQTi3Vl0rFE7l_OTcFoZnLkU42NMGpod86dXzA-pscPzsffpqvFglVOs28bS3SNFYXxdwuAF1SCI5o95s577IN2uqFtXlmuvg_WDS0FibK9t0MtITgnY-rMCvE4rFM-fJYozL09Z2yDBeT1W2pxsv1UTKdIs0y2nXW4KfdtGKMwKqgKR25ixZeJOaF5fl1Gx5rfObCcYJloBcnkQG5OeuLTbKlPiDcU8_erMo2-9a2cQJOo3OW4TZdoChet9c89kk9gxgUvjP3kNBh892Y-QdpqYNLaAcW-cG54ocaLzNrTqcUrITlp80V_YXttBmS3RkOU1kqLBjWxF2MuynNj9M1F_bu_J3KN_13m0YbVXvdZPMPHV62ZZVFSQ4LR-aBRWAowEd8k_UKwWgUI4owAANq6xYHqPspvk3_qLcg9ZI34mcZOpSR15dVqR2jY5TtgGYbtAwTCq9x7GP1_0yCubOFmK_lHKPqaU96xSpRcWU35hxjDFt808qzCxxHqM5XW-ZgXX7_Z-AtlX84I4gwgMXJUNoEE7bWnUxgpqG2KzR-Y7ia3RU-2G4NRcSeqe_G5c_CxnCSiPTbk1nPb9nJIIxZZaXUWYvxiQRtfoi2fZKDqZBzrWi3_rXcpfgP32OLFbbeKpmylY-1CG3cRF0cbNG5cH-WOpxEA_GJEzCVgB6jbD1A8R-AthZb4hyK9o5V1YWH3xXdLD1Sj9_Aflf29CaB5csEm1kEdFB6csyhsaDL6MV3L-w0dHB6-eVoZ7eXymebQIwsM1nVvYhmTAIBx0zdL72zlYxNLSZWucQLOi4GT2ljVhvXssfdTF1SI-NMiR2KFa6a2KqQp2lJYJSpH9nsiDgkDzRfeNMHPnACtfePnD3ncPbeRAklxKwydNwWrN-jsN_OlQNgrbJqyEbHvl_rcuXJ871oe1o6JOJ6MMum5KHO-PXspa8HC7iIIVXlEIm4rZPiXTOP4AwGSXG03BBV7S4hlfJdsdGYuaVB-p9b7i0h-q97HczW8drscxQllITG0IXwQAu3G95KymC_MvYAGz6oSojiklSUx77KpQD8K9ADitk095YT2iP9KaxX4DFd1w8uQrUV1ofybJHX83miAfoog3CbhqScbtlZLQE42xISJB4NJddSeVh2cKMBVbjWhFRbcy7vc8stksbDfoO1e2dr5qBPE8NDDdTq7dlOP0GosdCycfpXTtyFwBuNWmOzugIPCw8uf--kpiLzqdcFo_G8o11s3gnvfMYhNlclSEetT2V9GzuhgPRJQ0IFMQlB58A1KigVAHYIrBQ4LzmLKjZ6XGHumfAURk2yGcLEIZcGo0YxZ8dI53-tKxPBlh7xZ8WJAx6oo-NemJZ1Xr_N0Xm--UnlHKjE8tikVD6pfaChMrtLg_YtQZcyb2XgIwajfk2cCmvN5-Hxvn84eQ-OWY-i7QL89oorVyU_qpD0VVRfshUVmQOoIaRjsZhnP0o2SU-JDlkaxAnjoD9gkTHnutcpcUqM&opi=122715837
+              - img [ref=f13e10]
+            - link [ref=f13e12] [cursor=pointer]:
+              - /url: https://adssettings.google.com/whythisad?source=display&reasons=AcrBLeUfPS88x8TjLDleyAzurnP_mkY4WwM4650Wj3IN0Gn6x12x0Bskx1S8ofdeTAJq6pbWKQFlAFj1z-gHWWC3pdZhZ_3ArH_1sJxYtVUr7FUWD_t0w8v5A_TqbW8teb7B6JgRbu9T8igeG6j9KcsEdsXuGxrK6qWkas7EDLMT8HVJQwkNd9zqH81OqH7IfpLie9OkNJU0sNIdP1LhWZh374OuZLDEjQIexWU5_xmD-QBdNjIQZCLOszAgGVDZBXhgvusCmo819igHHjbaEDGQoBi5CSQ0USU7njQjONlMSoivUbzFoiLdIRg4L8CG0DxOi4ttC93Bk5FMYZW15BizTKUwLX7rUTqqQQtIv1YfEY6tZGKIPBuibTjCF8gC3QFJPrADez_5dtpJAvRClH8EsymWw8nbmKhK01at-3U_m4zA89euKDtyMCBkP6o6KuNGW3vPvy76FblXPAOmn0URckhlY_3Wk8JPNbO5bBTf9USDAswRYkB3nxgcecGlt3SDJh9I6dvSxP2BICcIySeyJ5oPLw0V6uJCcgvnBPALRYOaEFQcoAKrPFuVbTZKefybLakZQIx6eljq8ZthQni0wwKUGk4GfVSFem4T6arVaPmFt0k9J6T029E2mNOBbDjO5CHCnm0uSJDk4QS5kHAqownuv1GLbgdnGo2tGmMIDt5ZDljTx7fEKpVUX0rOrc36iRnoeupRkv56Xy62fikMnnnUIt9QFu-UOBug7iPDficI9_oNUaPaSE2ZDXDpOBZK94iBMQfftM--YIgxydfzfFHtK3PtaRS8Ew-pEqrflGQLUUAHjDU692-K2ehQy8nIFhYCCMCG15Zcq2MiJX1_DuvUaPEacX_bUoUsJc63es9tkowKWJtdOmc0e-uu8J1U9yQ6Q5Ttq-kfrKgSnLITxXsRirqmy2dEgYRIpd4SJV9WZogCmIJTKyqLcL9pTvroKW7nbnGKDwpy-9_c8d1mQTwvHm8W-OL2pLGj-Eidc7RO_T2h4ZpqHwLS_FmDhVuA1_CVbLDaxYzdTIa1dzbq8zOdfJbgL4ofP5fE5IEdM8lazV-SK4RSuuIl_gCeLT0lEhPXVHzkC0YQhnVY97-lsJh9ZVR6SVXB0VwxfW0sq5zVp7McsIwjO2VwuLu46XGQYQ1jxavrksjBksYzc2EO36HD3lxX-j_OL-XzmkSjl8tLmbR-YWC9iNhOj-fPRpftBV4Kb1_13ERpKeNtoTl7DxllTKGxEbnHSqsuJLbCPpbksqlB1BrsB8SkX_lQ7dBLYD_qgExhIKkxjnZKElq8omdYYJLvetsg3LN5jKuWH8CKSuTmbUH10FXpBrUFcFBGImv5CVMw6zC3MWO6yFpjyQmYq1WjB-V0aiUhlcaUB4RmcGuPMfQd1iEmxzMNCDtCSZckjVl3Dsm22R47ELQTi3Vl0rFE7l_OTcFoZnLkU42NMGpod86dXzA-pscPzsffpqvFglVOs28bS3SNFYXxdwuAF1SCI5o95s577IN2uqFtXlmuvg_WDS0FibK9t0MtITgnY-rMCvE4rFM-fJYozL09Z2yDBeT1W2pxsv1UTKdIs0y2nXW4KfdtGKMwKqgKR25ixZeJOaF5fl1Gx5rfObCcYJloBcnkQG5OeuLTbKlPiDcU8_erMo2-9a2cQJOo3OW4TZdoChet9c89kk9gxgUvjP3kNBh892Y-QdpqYNLaAcW-cG54ocaLzNrTqcUrITlp80V_YXttBmS3RkOU1kqLBjWxF2MuynNj9M1F_bu_J3KN_13m0YbVXvdZPMPHV62ZZVFSQ4LR-aBRWAowEd8k_UKwWgUI4owAANq6xYHqPspvk3_qLcg9ZI34mcZOpSR15dVqR2jY5TtgGYbtAwTCq9x7GP1_0yCubOFmK_lHKPqaU96xSpRcWU35hxjDFt808qzCxxHqM5XW-ZgXX7_Z-AtlX84I4gwgMXJUNoEE7bWnUxgpqG2KzR-Y7ia3RU-2G4NRcSeqe_G5c_CxnCSiPTbk1nPb9nJIIxZZaXUWYvxiQRtfoi2fZKDqZBzrWi3_rXcpfgP32OLFbbeKpmylY-1CG3cRF0cbNG5cH-WOpxEA_GJEzCVgB6jbD1A8R-AthZb4hyK9o5V1YWH3xXdLD1Sj9_Aflf29CaB5csEm1kEdFB6csyhsaDL6MV3L-w0dHB6-eVoZ7eXymebQIwsM1nVvYhmTAIBx0zdL72zlYxNLSZWucQLOi4GT2ljVhvXssfdTF1SI-NMiR2KFa6a2KqQp2lJYJSpH9nsiDgkDzRfeNMHPnACtfePnD3ncPbeRAklxKwydNwWrN-jsN_OlQNgrbJqyEbHvl_rcuXJ871oe1o6JOJ6MMum5KHO-PXspa8HC7iIIVXlEIm4rZPiXTOP4AwGSXG03BBV7S4hlfJdsdGYuaVB-p9b7i0h-q97HczW8drscxQllITG0IXwQAu3G95KymC_MvYAGz6oSojiklSUx77KpQD8K9ADitk095YT2iP9KaxX4DFd1w8uQrUV1ofybJHX83miAfoog3CbhqScbtlZLQE42xISJB4NJddSeVh2cKMBVbjWhFRbcy7vc8stksbDfoO1e2dr5qBPE8NDDdTq7dlOP0GosdCycfpXTtyFwBuNWmOzugIPCw8uf--kpiLzqdcFo_G8o11s3gnvfMYhNlclSEetT2V9GzuhgPRJQ0IFMQlB58A1KigVAHYIrBQ4LzmLKjZ6XGHumfAURk2yGcLEIZcGo0YxZ8dI53-tKxPBlh7xZ8WJAx6oo-NemJZ1Xr_N0Xm--UnlHKjE8tikVD6pfaChMrtLg_YtQZcyb2XgIwajfk2cCmvN5-Hxvn84eQ-OWY-i7QL89oorVyU_qpD0VVRfshUVmQOoIaRjsZhnP0o2SU-JDlkaxAnjoD9gkTHnutcpcUqM&opi=122715837
+              - img [ref=f13e14]
+          - img [ref=f13e17] [cursor=pointer]
+          - generic [ref=f13e28]:
+            - img [ref=f13e31]
+            - generic [ref=f13e34]:
+              - text: Ads by
+              - img [ref=f13e35]
+            - generic [ref=f13e38]:
+              - generic [ref=f13e41] [cursor=pointer]: Ad options
+              - generic [ref=f13e44] [cursor=pointer]: Send feedback
+              - link [ref=f13e46] [cursor=pointer]:
+                - /url: https://adssettings.google.com/whythisad?source=display&reasons=AcrBLeUfPS88x8TjLDleyAzurnP_mkY4WwM4650Wj3IN0Gn6x12x0Bskx1S8ofdeTAJq6pbWKQFlAFj1z-gHWWC3pdZhZ_3ArH_1sJxYtVUr7FUWD_t0w8v5A_TqbW8teb7B6JgRbu9T8igeG6j9KcsEdsXuGxrK6qWkas7EDLMT8HVJQwkNd9zqH81OqH7IfpLie9OkNJU0sNIdP1LhWZh374OuZLDEjQIexWU5_xmD-QBdNjIQZCLOszAgGVDZBXhgvusCmo819igHHjbaEDGQoBi5CSQ0USU7njQjONlMSoivUbzFoiLdIRg4L8CG0DxOi4ttC93Bk5FMYZW15BizTKUwLX7rUTqqQQtIv1YfEY6tZGKIPBuibTjCF8gC3QFJPrADez_5dtpJAvRClH8EsymWw8nbmKhK01at-3U_m4zA89euKDtyMCBkP6o6KuNGW3vPvy76FblXPAOmn0URckhlY_3Wk8JPNbO5bBTf9USDAswRYkB3nxgcecGlt3SDJh9I6dvSxP2BICcIySeyJ5oPLw0V6uJCcgvnBPALRYOaEFQcoAKrPFuVbTZKefybLakZQIx6eljq8ZthQni0wwKUGk4GfVSFem4T6arVaPmFt0k9J6T029E2mNOBbDjO5CHCnm0uSJDk4QS5kHAqownuv1GLbgdnGo2tGmMIDt5ZDljTx7fEKpVUX0rOrc36iRnoeupRkv56Xy62fikMnnnUIt9QFu-UOBug7iPDficI9_oNUaPaSE2ZDXDpOBZK94iBMQfftM--YIgxydfzfFHtK3PtaRS8Ew-pEqrflGQLUUAHjDU692-K2ehQy8nIFhYCCMCG15Zcq2MiJX1_DuvUaPEacX_bUoUsJc63es9tkowKWJtdOmc0e-uu8J1U9yQ6Q5Ttq-kfrKgSnLITxXsRirqmy2dEgYRIpd4SJV9WZogCmIJTKyqLcL9pTvroKW7nbnGKDwpy-9_c8d1mQTwvHm8W-OL2pLGj-Eidc7RO_T2h4ZpqHwLS_FmDhVuA1_CVbLDaxYzdTIa1dzbq8zOdfJbgL4ofP5fE5IEdM8lazV-SK4RSuuIl_gCeLT0lEhPXVHzkC0YQhnVY97-lsJh9ZVR6SVXB0VwxfW0sq5zVp7McsIwjO2VwuLu46XGQYQ1jxavrksjBksYzc2EO36HD3lxX-j_OL-XzmkSjl8tLmbR-YWC9iNhOj-fPRpftBV4Kb1_13ERpKeNtoTl7DxllTKGxEbnHSqsuJLbCPpbksqlB1BrsB8SkX_lQ7dBLYD_qgExhIKkxjnZKElq8omdYYJLvetsg3LN5jKuWH8CKSuTmbUH10FXpBrUFcFBGImv5CVMw6zC3MWO6yFpjyQmYq1WjB-V0aiUhlcaUB4RmcGuPMfQd1iEmxzMNCDtCSZckjVl3Dsm22R47ELQTi3Vl0rFE7l_OTcFoZnLkU42NMGpod86dXzA-pscPzsffpqvFglVOs28bS3SNFYXxdwuAF1SCI5o95s577IN2uqFtXlmuvg_WDS0FibK9t0MtITgnY-rMCvE4rFM-fJYozL09Z2yDBeT1W2pxsv1UTKdIs0y2nXW4KfdtGKMwKqgKR25ixZeJOaF5fl1Gx5rfObCcYJloBcnkQG5OeuLTbKlPiDcU8_erMo2-9a2cQJOo3OW4TZdoChet9c89kk9gxgUvjP3kNBh892Y-QdpqYNLaAcW-cG54ocaLzNrTqcUrITlp80V_YXttBmS3RkOU1kqLBjWxF2MuynNj9M1F_bu_J3KN_13m0YbVXvdZPMPHV62ZZVFSQ4LR-aBRWAowEd8k_UKwWgUI4owAANq6xYHqPspvk3_qLcg9ZI34mcZOpSR15dVqR2jY5TtgGYbtAwTCq9x7GP1_0yCubOFmK_lHKPqaU96xSpRcWU35hxjDFt808qzCxxHqM5XW-ZgXX7_Z-AtlX84I4gwgMXJUNoEE7bWnUxgpqG2KzR-Y7ia3RU-2G4NRcSeqe_G5c_CxnCSiPTbk1nPb9nJIIxZZaXUWYvxiQRtfoi2fZKDqZBzrWi3_rXcpfgP32OLFbbeKpmylY-1CG3cRF0cbNG5cH-WOpxEA_GJEzCVgB6jbD1A8R-AthZb4hyK9o5V1YWH3xXdLD1Sj9_Aflf29CaB5csEm1kEdFB6csyhsaDL6MV3L-w0dHB6-eVoZ7eXymebQIwsM1nVvYhmTAIBx0zdL72zlYxNLSZWucQLOi4GT2ljVhvXssfdTF1SI-NMiR2KFa6a2KqQp2lJYJSpH9nsiDgkDzRfeNMHPnACtfePnD3ncPbeRAklxKwydNwWrN-jsN_OlQNgrbJqyEbHvl_rcuXJ871oe1o6JOJ6MMum5KHO-PXspa8HC7iIIVXlEIm4rZPiXTOP4AwGSXG03BBV7S4hlfJdsdGYuaVB-p9b7i0h-q97HczW8drscxQllITG0IXwQAu3G95KymC_MvYAGz6oSojiklSUx77KpQD8K9ADitk095YT2iP9KaxX4DFd1w8uQrUV1ofybJHX83miAfoog3CbhqScbtlZLQE42xISJB4NJddSeVh2cKMBVbjWhFRbcy7vc8stksbDfoO1e2dr5qBPE8NDDdTq7dlOP0GosdCycfpXTtyFwBuNWmOzugIPCw8uf--kpiLzqdcFo_G8o11s3gnvfMYhNlclSEetT2V9GzuhgPRJQ0IFMQlB58A1KigVAHYIrBQ4LzmLKjZ6XGHumfAURk2yGcLEIZcGo0YxZ8dI53-tKxPBlh7xZ8WJAx6oo-NemJZ1Xr_N0Xm--UnlHKjE8tikVD6pfaChMrtLg_YtQZcyb2XgIwajfk2cCmvN5-Hxvn84eQ-OWY-i7QL89oorVyU_qpD0VVRfshUVmQOoIaRjsZhnP0o2SU-JDlkaxAnjoD9gkTHnutcpcUqM&opi=122715837
+                - generic [ref=f13e47]:
+                  - text: Why this ad?
+                  - img [ref=f13e48]
+          - generic [ref=f13e50]:
+            - generic [ref=f13e53] [cursor=pointer]: Ad was inappropriate
+            - generic [ref=f13e56] [cursor=pointer]: Not interested in this ad
+            - generic [ref=f13e59] [cursor=pointer]: Ad covered content
+            - generic [ref=f13e62] [cursor=pointer]: Seen this ad multiple times
+          - generic [ref=f13e68]: Thanks. Feedback improves Google ads
+          - generic [ref=f13e74]:
+            - text: Ad closed by
+            - img [ref=f13e75]
+          - generic [ref=f13e82]:
+            - img [ref=f13e85]
+            - generic [ref=f13e87]:
+              - generic [ref=f13e89]: Personalize ads on this site
+              - link [ref=f13e93] [cursor=pointer]:
+                - /url: https://support.google.com/ads/answer/10923348
+                - generic [ref=f13e94]:
+                  - text: Learn more
+                  - img [ref=f13e95]
+  - contentinfo [ref=e249]:
+    - generic [ref=e250]: © 2013-2026 TOOLSQA.COM | ALL RIGHTS RESERVED.
+```
